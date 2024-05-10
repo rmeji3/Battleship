@@ -1,0 +1,7 @@
+rafael,8
+goat,7
+whopper,5
+jose,4
+haider,1
+mccarty,1
+leal,2
