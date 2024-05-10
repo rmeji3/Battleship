@@ -1,0 +1,250 @@
+.button:disabled {
+    -fx-opacity: 1; /* keeps the opacity at 100% even when disabled */
+}
+.quit-btn{
+    -fx-background-color: #F87474;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+.cell-btn-nums{
+    -fx-background-color: transparent;
+    -fx-text-fill: #F87474;
+    -fx-font-family: Blockletter;
+    -fx-font-size: 35px;
+    -fx-border-color: transparent;
+}
+.cell-btn-top-left{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px 0px 0px 0px;
+    -fx-background-radius: 20px 0px 0px 0px;
+}
+.cell-btn-top-right{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0px 20px 0px 0px;
+    -fx-background-radius: 0px 20px 0px 0px;
+}
+.cell-btn-bottom-right{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0px 0px 20px 0px;
+    -fx-background-radius: 0px 0px 20px 0px;
+}
+.cell-btn-bottom-left{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+    -fx-border-radius:  0px 0px 0px 20px;
+    -fx-background-radius: 0px 0px 0px 20px;
+}
+
+.cell-btn-enemy{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+}
+.cell-btn-enemy:hover {
+    -fx-cursor: hand;
+}
+.ani-grid{
+    /*-fx-background-color: rgba(255, 0, 0, 0.24);*/
+    -fx-pref-width: 847px;
+    -fx-max-width: 847px;
+    -fx-min-width: 847px;
+    -fx-pref-height: 847px;
+    -fx-max-height: 847px;
+    -fx-min-height: 847px;
+}
+
+.cell-btn{
+    -fx-background-color: #3AB0FF;
+    -fx-border-color: #2872A4;
+    -fx-border-width: 2px;
+}
+.panel-hbox{
+    -fx-pref-width: 750px;
+    -fx-max-width: 750px;
+    -fx-min-width: 750px;
+    -fx-pref-height: 902px;
+    -fx-max-height: 902px;
+    -fx-min-height: 902px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #D9D9D9;
+}
+.panel-hbox2{
+    -fx-pref-width: 900px;
+    -fx-max-width: 900px;
+    -fx-min-width: 900px;
+    -fx-pref-height: 902px;
+    -fx-max-height: 902px;
+    -fx-min-height: 902px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #D9D9D9;
+}
+
+.wrapperPanel2{
+    -fx-pref-width: 900px;
+    -fx-max-width: 900px;
+    -fx-min-width: 900px;
+    -fx-pref-height: 902px;
+    -fx-max-height: 902px;
+    -fx-min-height: 902px;
+}
+.panel-hbox3{
+    -fx-pref-width: 750px;
+    -fx-max-width: 750px;
+    -fx-min-width: 750px;
+    -fx-pref-height: 902px;
+    -fx-max-height: 902px;
+    -fx-min-height: 902px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: transparent;
+}
+.your-panel-hbox{
+    -fx-pref-width: 900px;
+    -fx-max-width: 900px;
+    -fx-min-width: 900px;
+    -fx-pref-height: 902px;
+    -fx-max-height: 902px;
+    -fx-min-height: 902px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #D9D9D9;
+}
+
+.chat-box-vbox{
+    -fx-background-color: #3AB0FF;
+    -fx-background: #3AB0FF;
+    -fx-border-width: 5px;
+    -fx-border-color: #2872A4;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-pref-height: 300px;
+    -fx-max-height: 300px;
+    -fx-min-height: 300px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+    -fx-min-width: 300px;
+}
+.chat-box{
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-pref-height: 264px;
+    -fx-max-height: 264px;
+    -fx-min-height: 264px;
+}
+.fire-btn{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #F87474;
+    -fx-pref-height: 130px;
+    -fx-max-height: 130px;
+    -fx-min-height: 130px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+    -fx-min-width: 300px;
+    -fx-font-size: 60px;
+    -fx-font-family: Blockletter;
+    -fx-text-fill: #D9D9D9;
+}
+.fire-btn:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #d76666;
+}
+.leave-btn{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #F87474;
+    -fx-pref-height: 100px;
+    -fx-max-height: 100px;
+    -fx-min-height: 100px;
+    -fx-pref-width: 750px;
+    -fx-max-width: 750px;
+    -fx-min-width: 750px;
+    -fx-font-size: 40px;
+    -fx-font-family: Blockletter;
+    -fx-text-fill: #D9D9D9;
+}
+.leave-btn:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #d76666;
+}
+.waiting-text{
+    -fx-fill: #d76666;
+    -fx-font-size: 80px;
+    -fx-font-family: Blockletter;
+}
+.end-box{
+    -fx-pref-width: 800px;
+    -fx-max-width: 800px;
+    -fx-min-width: 800px;
+    -fx-pref-height: 400px;
+    -fx-max-height: 400px;
+    -fx-min-height: 400px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #D9D9D9;
+}
+.end-text{
+    -fx-fill: #F87474;
+    -fx-font-size: 50px;
+    -fx-font-family: Blockletter;
+}
+
+.emote-grid{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #3AB0FF;
+    -fx-border-width: 5px;
+    -fx-border-color: #2872A4;
+    -fx-pref-height: 300px;
+    -fx-max-height: 300px;
+    -fx-min-height: 300px;
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+    -fx-min-width: 300px;
+    -fx-padding: 0px 0px 0px 0px
+}
+.emote-btn{
+    -fx-background-color: transparent;
+}
+.emote-btn:hover{
+    -fx-cursor: hand;
+}
+.chat-field{
+    -fx-background-color: #D9D9D9;
+    -fx-text-fill:  #2872A4;
+    -fx-font-family: Blockletter;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 20px;
+}
+.chat-text {
+    -fx-font-family: Blockletter;
+    -fx-background-color: #D9D9D9;
+    -fx-fill: #D9D9D9;
+    -fx-padding: 10px;
+}
+.player-img{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-background-color: #3AB0FF;
+    -fx-border-width: 5px;
+    -fx-border-color: #2872A4;
+
+}
+.name-text{
+    -fx-font-family: Blockletter;
+    -fx-background-color: #D9D9D9;
+    -fx-font-size: 40px;
+    -fx-fill: #2872A4;
+    -fx-padding: 10px;
+
+}
